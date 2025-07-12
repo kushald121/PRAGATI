@@ -1,0 +1,28 @@
+.Info{
+    display: flex;
+    
+}
+
+
+.profile-photo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2 px solid white;
+    background-color: grey;
+}
+
+.Hire{
+    background-color: #0898FD;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+
+
+.profileinfo>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    list-style: none;
+
+}

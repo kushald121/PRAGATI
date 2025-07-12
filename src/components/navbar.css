@@ -1,0 +1,20 @@
+.Navbar{
+    display: flex;
+}
+
+.Nav{
+
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    align-items: center;
+    
+
+}
+
+.Nav li {
+    list-style: none;
+}
+
+
