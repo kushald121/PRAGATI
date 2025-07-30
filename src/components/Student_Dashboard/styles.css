@@ -1,11 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 body {
     font-family: 'Inter', sans-serif;
@@ -638,6 +639,5 @@ body {
   margin-left: 250px; 
   padding: 20px;
 }
-
 
 

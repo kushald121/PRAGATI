@@ -1,0 +1,66 @@
+.badge-form-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.badge-form-container h2 {
+  margin-bottom: 24px;
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+}
+
+.badge-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.badge-form label {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+
+.badge-form input[type='text'],
+.badge-form input[type='number'],
+.badge-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+.badge-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.checkbox-label {
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.badge-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.badge-form button:hover {
+  background-color: #0056b3;
+}
