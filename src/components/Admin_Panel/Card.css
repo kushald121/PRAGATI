@@ -27,7 +27,7 @@
   flex-shrink: 0;
 }
 
-.card-text-icon { /* Styling for the text-based "icon" */
+.card-text-icon { 
   font-size: 2rem;
 }
 
