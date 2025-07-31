@@ -2,24 +2,7 @@ import React from 'react'
 import Navbar from "./components/navbar";
 import Profileicon from "./components/profileicon";
 import ContactPage from './pages/ContactPage';
-//import { useState } from 'react';
-
-//Dashboard Components imported
-import {
-  Sidebar,
-  Header,
-  WelcomeSection,
-  StatsGrid,
-  NoticeBoard,
-  ChartSection,
-  AssignmentsSection,
-  RightSidebar,
-  BottomProfileMessages,
-  EditProfilePage,
-  MyProjects,
-  SkillBages,
-  NotificationsPage
-} from './index.js'; 
+import Student_Dashboard from './components/Student_Dashboard/Student_Dashboard';
 
 const App = () => {
   return (
@@ -27,8 +10,10 @@ const App = () => {
       <Navbar/>
       <Profileicon/>
       <ContactPage />
+      <Student_Dashboard />
     </div>
   )
 }
+
 
 export default App
