@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  width: 100%; /* Be cautious with this: `width: 100%;` on all elements can cause layout issues, especially with padding/borders. It's often better to apply this selectively or rely on block-level default behavior. For this specific case, it might be intended for some elements, but review its impact. */
+  width: 100%; 
 }
 
 

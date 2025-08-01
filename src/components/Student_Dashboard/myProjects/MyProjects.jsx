@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../styles.css';
+import "../styles.css";
 import Sidebar from '../dashboard/Sidebar';
 import Header from '../dashboard/Header';
 import ProjectSubmissionForm from './ProjectSubmissionForm';
