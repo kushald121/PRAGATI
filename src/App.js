@@ -5,7 +5,7 @@ import ProjectsProgress from "./pages/ProjectsProgress";
 import OpenSourceContributions from "./pages/OpenSourceContributions";
 import Feedback from "./pages/Feedback";
 import MultiStudent from "./pages/MultiStudent";
-
+import ProjectShowcasePage from './pages/ProjectShowcasePage';
 function App() {
   return (
     <Router>
@@ -15,6 +15,7 @@ function App() {
         <Route path="/open-source-contributions" element={<OpenSourceContributions />} />
         <Route path="/feedback" element={<Feedback />} />
         <Route path="/multi-student" element={<MultiStudent />}></Route>
+        <Route path="/project-showcase" element={<ProjectShowcasePage />} />
       </Routes>
     </Router>
   );
